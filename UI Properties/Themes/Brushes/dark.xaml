@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Color x:Key="LastBillTextColour">#FFFFFF</Color>
+    <Color x:Key="ChangeToBeGivenColour">#CD8700</Color>
+    <Color x:Key="BorderBetweenLastSaleInfoColour">#1F2237</Color>
+    <Color x:Key="Scrollcolor">#22273C</Color>
+
+    <Color x:Key="LogoBackground">#040103</Color>
+    <Color x:Key="CatCollapseBackgroundColor">#6A76A4</Color>
+    <Color x:Key="MoreViewButtonColour">#2E3A73</Color>
+    <Color x:Key="SalesCustRemoveButtonColor">#9FA4C0</Color>
+    <Color x:Key="LogoTitleColor">#FFFFFF</Color>
+    <Color x:Key="GreyBlackColor">#090c19</Color>
+    <Color x:Key="ProfileAddrColor">#D8D9E0</Color>
+    <Color x:Key="SessionSearchBackgroundColor">#141627</Color>
+    <Color x:Key="SessionButtonBackgroundColor">#191C33</Color>
+    <Color x:Key="SessionCloseButtonBackgroundColor">#F2F2F7</Color>
+    <Color x:Key="TileSizeBorderColor">#30334F</Color>
+    <Color x:Key="CatCollapsedButtonBackgroundColor">#FF8489A5</Color>
+    <Color x:Key="CatButtonBackgroundColor">#C2C3CC</Color>
+    <Color x:Key="ViewDoDetailsDisableColor">#364587</Color>
+    <Color x:Key="ViewDoDetailsEnaableColor">#5571E4</Color>
+    <Color x:Key="LogoCenterColor">#A8A8A8</Color>
+    <Color x:Key="LogoSubColor">#EC3229</Color>
+    <Color x:Key="CollapseIconColor">#42466c</Color>
+    <Color x:Key="UITotalQuantityColor">#636871</Color>
+    <Color x:Key="SessionChartCashColor">#9AAEFF</Color>
+    <Color x:Key="SessionChartCardColor">#FFD399</Color>
+    <Color x:Key="SessionChartWalletColor">#EDAEAF</Color>
+    <Color x:Key="SessionChartCreditSaleColor">#9CD6B6</Color>
+    <Color x:Key="ProfileGridBackgroundColor">#141627</Color>
+    <Color x:Key="ProfileBackgroundColor">#22243A</Color>
+    <Color x:Key="ProfileBorderColor">#2F3148</Color>
+    <Color x:Key="SessionTextForeground">#6E7285</Color>
+    <Color x:Key="SessionBordersColor">#202447</Color>
+    <Color x:Key="SessionDiscrepancyForegroundColor">#D13537</Color>
+    <Color x:Key="SessionOverViewTextColor">#FFFFFF</Color>
+    <Color x:Key="PaymentSummaryBarColor8">#7592C9</Color>
+    <Color x:Key="PaymentSummaryBarColor7">#7DD7D7</Color>
+    <Color x:Key="PaymentSummaryBarColor4">#90D9B1</Color>
+    <Color x:Key="PaymentSummaryBarColor1">#9AAEFF</Color>
+    <Color x:Key="PaymentSummaryBarColor5">#C0A2F1</Color>
+    <Color x:Key="PaymentSummaryBarColor10">#C2C2C2</Color>
+    <Color x:Key="PaymentSummaryBarColor9">#C7CE79</Color>
+    <Color x:Key="PaymentSummaryBarColor3">#F4AEAF</Color>
+    <Color x:Key="PaymentSummaryBarColor6">#F6A2F3</Color>
+    <Color x:Key="PaymentSummaryBarColor2">#FBCC8F</Color>
+    <Color x:Key="PaymentSummaryBarColor18">#214FA8</Color>
+    <Color x:Key="PaymentSummaryBarColor17">#27B5B5</Color>
+    <Color x:Key="PaymentSummaryBarColor14">#2AC26E</Color>
+    <Color x:Key="PaymentSummaryBarColor11">#3455DC</Color>
+    <Color x:Key="PaymentSummaryBarColor15">#7F47DB</Color>
+    <Color x:Key="PaymentSummaryBarColor20">#858484</Color>
+    <Color x:Key="PaymentSummaryBarColor19">#9AA51F</Color>
+    <Color x:Key="PaymentSummaryBarColor16">#E939E2</Color>
+    <Color x:Key="PaymentSummaryBarColor13">#F04346</Color>
+    <Color x:Key="PaymentSummaryBarColor12">#F3A134</Color>
+    <Color x:Key="NoSummaryTextColor">#8D91A3</Color>
+    <Color x:Key="AboutSCGridColor">#202447</Color>
+    <Color x:Key="AboutSCGrid1Color">#141627</Color>
+    <Color x:Key="SessionMenuBoderColor">#141627</Color>
+    <Color x:Key="SessionInprogressTextColor">#50A62A</Color>
+    <Color x:Key="SessionClosedTextColor">#D8D9E0</Color>
+    <Color x:Key="AboutSCBorderColor">#3E436B</Color>
+    <Color x:Key="AboutWeighingContentColor">#8D91A3</Color>
+    <Color x:Key="EndSessionBorderColor">#714040</Color>
+    <Color x:Key="AboutCopyRightTextBlockColor">#FFFFFF</Color>
+    <Color x:Key="EditMoreButtonBackgroundColor">#2a2d46</Color>
+    <Color x:Key="BackgroundColor">#141627</Color>
+    <Color x:Key="ShortcutBorderColor">#494D71</Color>
+    <Color x:Key="SessionBorderColor">#22243a</Color>
+    <Color x:Key="DarkBackgroundColor">#141627</Color>
+    <Color x:Key="EndSessionRadioButtonColor">#714040</Color>
+    <Color x:Key="ShortcutBackgroundColor">#2a2c48</Color>
+    <Color x:Key="ShortcutKeyBackgroundColor">#484a61</Color>
+    <Color x:Key="SessionDataGridHeaderColor">#FFFFFF</Color>
+    <Color x:Key="SessionFooterBackgroundColor">#22243A</Color>
+    <Color x:Key="SecondaryLeftPanelBackgroundColor">#181b32</Color>
+    <Color x:Key="SecondaryLeftPanelDividerColor">#252840</Color>
+    <Color x:Key="RightPaneBackgroundColor">#141627</Color>
+    <Color x:Key="SessionMenuForegroundColor">#7B95FF</Color>
+    <Color x:Key="TransactionInvoiceBackGroundColor">#1d1f30</Color>
+    <Color x:Key="ItemImageBackgroundColor">#1C1F37</Color>
+    <Color x:Key="DiscountBackgroundColor">#1C1F37</Color>
+    <Color x:Key="EndSessionBackgroundColor">#714040</Color>
+    <Color x:Key="DiscountForegroundColor">#FFFFFF</Color>
+    <Color x:Key="VoucherDtaGridBorderColor">#1B1F3A</Color>
+    <Color x:Key="AvailableStockForegroundColor">#FFFFFF</Color>
+    <Color x:Key="CloseSessionForegroundColor">#FFFFFF</Color>
+    <Color x:Key="ItemImageBorderColor">#F2F3F8</Color>
+    <Color x:Key="TagBorderBrushColor">#2a2d46</Color>
+    <Color x:Key="EndSessionMouseHoverColor">#732B2B</Color>
+    <Color x:Key="SessionIdColor">#FFFFFF</Color>
+    <Color x:Key="SessionUserColor">#D8D9E0</Color>
+    <Color x:Key="CustomerDisplayColor">#22243A</Color>
+    <Color x:Key="FocusedTabBorderColor">#3955C7</Color>
+    <Color x:Key="ShortcutSearchBorderColor">#666989</Color>
+    <Color x:Key="PayUBackGroundColor">#13232A</Color>
+    <Color x:Key="SOLogoForeground">#FF8189AD</Color>
+    <Color x:Key="FoodReadyStatusColor">#88B210</Color>
+    <Color x:Key="CrossIconForegroundcolor">#C3C3C7</Color>
+    <Color x:Key="SalesManTagColor">#634C95</Color>
+    <Color x:Key="ScrollBarArrowIconColor">#9097D8</Color>
+    <Color x:Key="SalescartItemDetailsForegroundColor">#A5A9CD</Color>
+
+
+    <Color x:Key="HeaderBackground">#2a2d46</Color>
+    <Color x:Key="HeaderForeground">#FFFFFF</Color>
+    <Color x:Key="HeaderBorderBrushColor">#404259</Color>
+    <Color x:Key="LoyaltyStillRemainingColor">#F7553F</Color>
+    <Color x:Key="GridSplitterBrushColor">#2a2d46</Color>
+    <Color x:Key="GridHeaderSplitterBrushColor">#d9dbea</Color>
+    <Color x:Key="SecondaryGridSplitterBrushColor">#1d1f30</Color>
+    <Color x:Key="SettingsViewSplitterBrushColor">#1d1f33</Color>
+    <Color x:Key="TransactionBorderColor">#1a1c2f</Color>
+    <Color x:Key="FlyoutBorderColor">#3e4057</Color>
+
+    <Color x:Key="FooterBackground">#41434f</Color>
+    <Color x:Key="FooterForeground">#FFFFFF</Color>
+
+    <Color x:Key="CustomerFacingDisplayBackgroundColor">#fcf3e1</Color>
+    <Color x:Key="CustomerFacingDisplayBorderColor">#fcf3e1</Color>
+    <Color x:Key="CustomerFacingDisplayButtonColor">#ff8b5c</Color>
+    <Color x:Key="CustomerFacingDisplayForegroundColor">#eb6630</Color>
+
+    <Color x:Key="OptionButtonBackground">#343b56</Color>
+    <Color x:Key="OptionButtonForeground">#ffffff</Color>
+    <Color x:Key="BlueButtonForeground">#ffffff</Color>
+    <Color x:Key="DefaultButtonBackground">#343b56</Color>
+    <Color x:Key="ButtonBlueBackground">#5571e4</Color>
+    <Color x:Key="SalesCustomizationBackground">#1A1F3A</Color>
+    <Color x:Key="ButtonRegisterHoverRedBackground">#cb2424</Color>
+    <Color x:Key="ButtonBlueHoverBackground">#405bc8</Color>
+    <Color x:Key="TabButtonHoverBackground">#1d1f2f</Color>
+    <Color x:Key="SecondaryButtonBorder">#343b56</Color>
+    <Color x:Key="CashDenominationButtonBackground">#272A48</Color>
+    <Color x:Key="CashDenominationButtonBorder">#323860</Color>
+    <Color x:Key="CashDenominationButtonHover">#444A74</Color>
+
+    <Color x:Key="TabHeaderBackground">#2a2d4c</Color>
+    <Color x:Key="SecondHeaderBackground">#181b32</Color>
+    <Color x:Key="ScrollLineColor">#ffffff</Color>
+
+    <Color x:Key="FooterGroupingPanelBackground">#181b32</Color>
+    <Color x:Key="GroupingPanelBackground">#21243a</Color>
+    <Color x:Key="RightFooterGroupingPanelBackground">#181b32</Color>
+    <Color x:Key="GroupingBorder">#2c2e3d</Color>
+
+    <Color x:Key="CartHeaderBackground">#1c1e31</Color>
+    <Color x:Key="KeypadColour">#FFB7BBDE</Color>
+    <Color x:Key="CartHeaderBorder">#2a2d46</Color>
+    <Color x:Key="CartHeaderForeground">#FFFFFF</Color>
+    <Color x:Key="DataGridSelectionBackground">#6281ff</Color>
+    <Color x:Key="LineSplitColor">#1f2237</Color>
+    <Color x:Key="CartItemForeground">#FFFFFF</Color>
+    <Color x:Key="CartInfoHeaderForeground">#A9A9A9</Color>
+
+    <Color x:Key="BorderBrushColor">#404259</Color>
+    <Color x:Key="CustomBorderBrushColor">#A9A9A9</Color>
+    <Color x:Key="FlyoutBorder">#404259</Color>
+    <Color x:Key="BorderPopupBrushColor">#202447</Color>
+    <Color x:Key="ForegroundColor">#FFFFFFFF</Color>
+    <Color x:Key="H1ForegroundColor">#6281ff</Color>
+    <Color x:Key="ProductDescForegroundColor">#ffffff</Color>
+    <Color x:Key="TextForegroundColor">#ffffff</Color>
+    <Color x:Key="WhiteForegroundColor">#FFFFFF</Color>
+    <Color x:Key="BlackForegroundColor">#000000</Color>
+    <Color x:Key="GenericTextBoxBorderColor">#b3b3b3</Color>
+    <Color x:Key="WaterMarkForegroundColor">#616b90</Color>
+    <Color x:Key="CustomerWaterMarkForegroundColor">#616b90</Color>
+    <Color x:Key="ErrorIconForegroundColor">#EE534F</Color>
+    <Color x:Key="WarningIconForegroundColor">#FF953F</Color>
+    <Color x:Key="CollapseIconBackgroundColor">#141627</Color>
+    <Color x:Key="CollapseIconBorderColor">#2A2D46</Color>
+    <Color x:Key="FeedbackSelectionBackground">#FAD92B</Color>
+
+    <Color x:Key="SelectionBackground">#282d40</Color>
+    <Color x:Key="LightSelectionBackground">#c4c6d4</Color>
+    <Color x:Key="Highlight1Background">#BAE0B8</Color>
+    <Color x:Key="Highlight2Background">#FAC319</Color>
+    <Color x:Key="MainButtonBackgroundColor">#6281ff</Color>
+
+    <Color x:Key="ActiveStatusColor">#1fa324</Color>
+    <Color x:Key="OfflineStatusColor">#ed6b22</Color>
+    <Color x:Key="CancellStatusColor">#d64830</Color>
+
+    <Color x:Key="PopupLineColor">#ffffff</Color>
+    <Color x:Key="PopupBorderLineColor">#3d4ea1</Color>
+    <Color x:Key="PopupMessageBackground">#FEF4DD</Color>
+    <Color x:Key="PopupMessageForeground">#EE680E</Color>
+    <Color x:Key="PopupDataGridHeaderBackground">#1f223a</Color>
+    <Color x:Key="VoucherDataGridHeaderBackground">#202447</Color>
+
+    <Color x:Key="AboutViewForeground">#ffffff</Color>
+    <Color x:Key="ProductSearchBackground">#FFFFFF</Color>
+    <Color x:Key="BackgroundHoverColor">#FF484E55</Color>
+    <Color x:Key="ForegroundDisabledColor">#656565</Color>
+    <Color x:Key="SelectedItemForegroundColor">#FFFFFFFF</Color>
+    <Color x:Key="CartSelectionForegroundColor">#ffffff</Color>
+    <Color x:Key="SearchBackgroundColor">#ffffff</Color>
+    <Color x:Key="SearchBarBackgroundColor">#343861</Color>
+    <Color x:Key="BackgroundDisabledColor">#262626</Color>
+    <Color x:Key="ListPanelBackground">#141627</Color>
+    <Color x:Key="KeyBoardBackground">#CED7E0</Color>
+    <Color x:Key="AccentColor">#FF1BA1E2</Color>
+    <Color x:Key="SVGForegroundColor">#ffffff</Color>
+    <Color x:Key="AlertHeaderColor">#2a2d4c</Color>
+    <Color x:Key="PaymentAlertHeaderColor">#202447</Color>
+    <Color x:Key="GridHoverColor">#2b6aa1</Color>
+    <Color x:Key="CatagoryBarColor">#343b56</Color>
+    <Color x:Key="PriceLevelBorderColor">#D37E32</Color>
+    <Color x:Key="PriceLevelForegroundColor">#FF7B06</Color>
+    <Color x:Key="PriceLevelBackgroundColor">#D37E32</Color>
+    <Color x:Key="DeliveryTypeForegroundColor">#91A3EE</Color>
+    <Color x:Key="DeliveryTypeBackgroundColor">#6278D6</Color>
+    <Color x:Key="ItemsWidgetBg">#141627</Color>
+    <Color x:Key="ItemsWidgetNameContainerBg">#000000</Color>
+    <Color x:Key="StockColor">#343b56</Color>
+    <Color x:Key="StockColorForScrolling">#FF50556A</Color>
+    <Color x:Key="OutofStockBgColor">#fff0f1</Color>
+    <Color x:Key="LimitedStockBgColor">#fff2e8</Color>
+    <Color x:Key="OutofStockFontColor">#f44242</Color>
+    <Color x:Key="LimitedStockFontColor">#fe6c00</Color>
+    <Color x:Key="OutstandingForegroundColor">#F56E6E</Color>
+    <Color x:Key="GreenSignalColor">#19b655</Color>
+    <Color x:Key="RedSignalColor">#ee2d2d</Color>
+    <Color x:Key="RemoveFromCartlColor">#E45454</Color>
+    <Color x:Key="OrangeSignalColor">#ff7d1e</Color>
+    <Color x:Key="GreenSignalBackgroundColor">#191C33</Color>
+    <Color x:Key="RedSignalBackgroundColor">#191C33</Color>
+    <Color x:Key="RRNUseCreditColor">#5571E4</Color>
+    <Color x:Key="VoucherGridBackgroundColor">#F7F8FA</Color>
+    <Color x:Key="CartAndMenuSelectionBackground">#2e3a73</Color>
+    <Color x:Key="MenuSelectionBackground">#2e3a73</Color>
+    <Color x:Key="BillRemarksColor">#2b6aa1</Color>
+    <Color x:Key="WarningBackgroundColor">#282328</Color>
+    <Color x:Key="ErrorBackgroundColor">#1C1A27</Color>
+    <Color x:Key="ErrorExceedForegroundColor">#EE534F</Color>
+    <Color x:Key="WarningExceedForegroundColor">#FF953F</Color>
+    <Color x:Key="WarningNoteForegroundColor">#888DAD</Color>
+    <Color x:Key="WariningCustomerForegroundColor">#D13537</Color>
+    <Color x:Key="ToastIconBackgroundColor">#1C9E0B</Color>
+    <Color x:Key="ToastSuccessfulBgColor">#2A4635</Color>
+    <Color x:Key="ToastSuccessfulBorderColor">#466150</Color>
+    <Color x:Key="ReceiptsToastBgColor">#282329</Color>
+    <Color x:Key="ReceiptsToastBorder">#65553E</Color>
+    <Color x:Key="SerialNumberBackgroundColor">#1C1F37</Color>
+    <Color x:Key="IntegratedPaymentToastBorder">#653F3F</Color>
+    <Color x:Key="IntegratedPaymentToastBackground">#1B1515</Color>
+    <Color x:Key="LoginAttemptToastBackground">#FAEBEB</Color>
+    <Color x:Key="LoginAttemptToastBackBrush">#D13537</Color>
+
+    <Color x:Key="PopupFooterLabelColor">#494D71</Color>
+    <Color x:Key="PopupFooterLabelForegroundColor">#A3A4AD</Color>
+    <Color x:Key="PopupFooterBackgroundColor">#191C33</Color>
+    <Color x:Key="PopupFooterDisabledColor">#474A5F</Color>
+    <Color x:Key="LastSalePopUpColor">#1C1F37</Color>
+    <Color x:Key="LightBorderColor">#1c1e31</Color>
+    <Color x:Key="AutoSessionTextColor">#BD4A09</Color>
+    <Color x:Key="AutoSessionTextBackgroundColor">#301201</Color>
+    <Color x:Key="SuccessBackground">#E3F9E1</Color>
+    <Color x:Key="PayUHeaderColor">#FFFFFF</Color>
+    <Color x:Key="DropDownTabDisableColor">#2C303C</Color>
+    <Color x:Key="TabButtonSelectedDisableColor">#414F88</Color>
+    <Color x:Key="DropDownTabDisableTextColor">#646C88</Color>
+
+
+    <Color x:Key="SpotlightTagBorderColor">#343861</Color>
+    <Color x:Key="SpotlightTagBorderBackgroundColor">#343861</Color>
+    <Color x:Key="SpotLightEmptyListTextColor">#767D9F</Color>
+    <Color x:Key="SpotLightListBoxItemBackgroundColor">#202447</Color>
+    <Color x:Key="FloatingKeyBoardBackgroundColor">#F1F3F9</Color>
+    <Color x:Key="FloatingKeyBoardButtonHoverColor">#494D77</Color>
+    <Color x:Key="CompletedStatusColor">#089949</Color>
+    <Color x:Key="AcceptedStatusColor">#5571E4</Color>
+    <Color x:Key="CancelledStatusColor">#DB584B</Color>
+    <Color x:Key="FullSalesStatusColor">Green</Color>
+    <Color x:Key="OrderedStatusColor">#DC8412</Color>
+    <Color x:Key="PendingStatusColor">#ED6B22</Color>
+    <Color x:Key="Full supplyStatusColor">#089949</Color>
+    <Color x:Key="UnpaidStatusColor">#DC8412</Color>
+    <Color x:Key="Partial supplyStatusColor">#DC8412</Color>
+    <Color x:Key="SearchBoxGridSplitterBrushColor">#d9dbea</Color>
+    <Color x:Key="ItemMarginTotalViewWarning">#1B1616</Color>
+    <Color x:Key="MultipleBillDisableColor">#72737D</Color>
+    <Color x:Key="MultipleBillBorderColor">#494D71</Color>
+
+
+    <!-- Offers -->
+    <Color x:Key="OfferForegroundColor">#FF7B06</Color>
+
+    <!-- StandardSkeleton -->
+    <Color x:Key="SearchBarColor">#F7F7FC</Color>
+    <Color x:Key="HeaderColor">#525C81</Color>
+    <Color x:Key="CustomerDetailsBackgroundColor">#141627</Color>
+    <Color x:Key="SkeletnBorderColor">#2A2D46</Color>
+
+    <!-- TouchSkeleton -->
+    <Color x:Key="TouchCustomerDetailsColor">#525C80</Color>
+    <Color x:Key="TouchCustomerDetailsBackgroundColor">#1C1E31</Color>
+    <Color x:Key="TouchHeaderBackgroundColor">#141627</Color>
+
+    <!-- Headercartcolor -->
+    <Color x:Key="SalesBillHeaderColor">#50A62A</Color>
+    <Color x:Key="SalesOrderHeaderColor">#F28900</Color>
+    <Color x:Key="SalesReturnHeaderColor">#F7553F</Color>
+    <Color x:Key="SalesCartHeaderBackgroundColor">#F2F2F7</Color>
+    <Color x:Key="ReceiptsHeaderColor">#000000</Color>
+    <Color x:Key="CollectionEntryHeaderColor">#1446A0</Color>
+    <Color x:Key="SalesOrderListViewHeaderColor">#4F5366</Color>
+    <Color x:Key="SalesOrderFooterBlueButton">#252c4a</Color>
+    <Color x:Key="SalesOrderModifierColor">white</Color>
+    <Color x:Key="SOArrivedIconColor">#FF2A4635</Color>
+    <Color x:Key="SOArrivedIconOuterColor">#FF1C9E0B</Color>
+    <Color x:Key="SOViewMoreInfoColor">#252b4a</Color>
+
+
+    <SolidColorBrush x:Key="ScrollColorBrush" Color="{StaticResource Scrollcolor}" />
+
+    <!-- BatchLock properties color-->
+    <Color x:Key="BatchLockPropertiesColor">#FFC5C7CE</Color>
+
+    <!--Last sale info in sales cart-->
+
+    <SolidColorBrush x:Key="LastBillForegroundTextColour" Color="{StaticResource LastBillTextColour }" />
+    <SolidColorBrush x:Key="LastSaleAmountTextColour" Color="{StaticResource LastBillTextColour }"/>
+    <SolidColorBrush x:Key="LastSaleAmountColour" Color="{StaticResource LastBillTextColour }" />
+    <SolidColorBrush x:Key="LastSalePaymentModeTextColour" Color="{StaticResource LastBillTextColour}" />
+    <SolidColorBrush x:Key="LastSalePaymentModeColour" Color="{StaticResource LastBillTextColour}" />
+    <SolidColorBrush x:Key="LastSaleAmountPaidTextColour" Color="{StaticResource LastBillTextColour}" />
+    <SolidColorBrush x:Key="LastSaleAmountPaidColour" Color="{StaticResource LastBillTextColour}" />
+    <SolidColorBrush x:Key="LastSaleChangeGivenTextColour" Color="{StaticResource SessionDataGridHeaderColor}" />
+    <SolidColorBrush x:Key="LastSaleChangeGivenColour" Color="{StaticResource ChangeToBeGivenColour}" />
+    <SolidColorBrush x:Key="BorderColourForLastSaleInfo" Color="{StaticResource EditMoreButtonBackgroundColor}" />
+    <SolidColorBrush x:Key="BorderColourBetweenLastSaleInfo" Color="{StaticResource BorderBetweenLastSaleInfoColour}" />
+    <SolidColorBrush x:Key="LastSaleInfoColor" Color="{StaticResource LastBillTextColour}" />
+
+    <!-- Rate History -->
+    <Color x:Key="RateHistoryCustomerAtTagColour">#C4D5E9</Color>
+    <Color x:Key="RateHistorySearchColour">#000000</Color>
+    <Color x:Key="QuantityWindowBackToFormColour">#FFFFFF</Color>
+    <Color x:Key="NoSalesHistoryInLineItemEditColour">#7C828B</Color>
+
+    <!-- StandardSkeleton -->
+    <SolidColorBrush x:Key="SearchBarColorBrush" Color="{StaticResource SearchBarColor}" />
+    <SolidColorBrush x:Key="SearchBarBackgroundColorBrush" Color="{StaticResource ProductSearchBackground}" />
+    <SolidColorBrush x:Key="HeaderColorBrush" Color="{StaticResource HeaderColor}" />
+    <SolidColorBrush x:Key="HeaderBackgroundColorBrush" Color="{StaticResource CartHeaderBackground}" />
+    <SolidColorBrush x:Key="ItemNameColorBrush" Color="{StaticResource StockColor}" />
+    <SolidColorBrush x:Key="ItemDetailsColorBrush" Color="{StaticResource StockColor}" />
+    <SolidColorBrush x:Key="CustomerDetailsBackgroundColorBrush" Color="{StaticResource CustomerDetailsBackgroundColor}" />
+    <SolidColorBrush x:Key="CustomerDetailsForegroundColorBrush" Color="{StaticResource StockColor}" />
+    <SolidColorBrush x:Key="PaymentBackgroundColorBrush" Color="{StaticResource H1ForegroundColor}" />
+    <SolidColorBrush x:Key="TenderButtonDisabledColorBrush" Opacity="0.5" Color="{StaticResource H1ForegroundColor}" />
+    <SolidColorBrush x:Key="SkeletnBorderColorBrush" Color="{StaticResource SkeletnBorderColor}" />
+    <SolidColorBrush x:Key="SkeletnSalesCustomizationColorBrush" Color="{StaticResource SecondHeaderBackground}" />
+    <SolidColorBrush x:Key="ScrollBarLineColorBrush" Color="{StaticResource ScrollLineColor}" />
+    <SolidColorBrush x:Key="SearchBoxGridSplitterBrush" Color="{StaticResource SearchBoxGridSplitterBrushColor}" />
+
+    <!-- TouchSkeleton -->
+    <SolidColorBrush x:Key="TouchCustomerDetailsColorBrush" Color="{StaticResource TouchCustomerDetailsColor}" />
+    <SolidColorBrush x:Key="TouchCustomerDetailsBackgroundColorBrush" Color="{StaticResource TouchCustomerDetailsBackgroundColor}" />
+    <SolidColorBrush x:Key="TouchProductColorBrush" Color="{StaticResource StockColor}" />
+    <SolidColorBrush x:Key="TouchHeaderColorBrush" Color="{StaticResource StockColor}" />
+    <SolidColorBrush x:Key="TouchHeaderBackgroundColorBrush" Color="{StaticResource TouchHeaderBackgroundColor}" />
+    <SolidColorBrush x:Key="TouchItemNameColorBrush" Color="{StaticResource StockColor}" />
+    <SolidColorBrush x:Key="TouchItemDetailsColorBrush" Color="{StaticResource StockColor}" />
+
+    <!-- Status -->
+    <SolidColorBrush x:Key="ActiveStatusColorBrush" Color="{StaticResource ActiveStatusColor}" />
+    <SolidColorBrush x:Key="OfflineStatusColorBrush" Color="{StaticResource OfflineStatusColor}" />
+    <SolidColorBrush x:Key="CancellStatusColorBrush" Color="{StaticResource CancellStatusColor}" />
+
+    <!-- CustomerFacingDisplay  -->
+    <SolidColorBrush x:Key="CustomerFacingDisplayBackgroundColorBrush" Color="{StaticResource CustomerFacingDisplayBackgroundColor}" />
+    <SolidColorBrush x:Key="CustomerFacingDisplayBorderColorBrush" Color="{StaticResource CustomerFacingDisplayBorderColor}" />
+    <SolidColorBrush x:Key="CustomerFacingDisplayButtonColorBrush" Color="{StaticResource CustomerFacingDisplayButtonColor}" />
+    <SolidColorBrush x:Key="CustomerFacingDisplayForegroundColorBrush" Color="{StaticResource CustomerFacingDisplayForegroundColor}"/>
+
+    <!--  Logo Specfic  -->
+    <SolidColorBrush x:Key="LogoTitle" Color="{StaticResource LogoTitleColor}" />
+    <SolidColorBrush x:Key="LogoCenter" Color="{StaticResource LogoCenterColor}" />
+    <SolidColorBrush x:Key="LogoSub" Color="{StaticResource LogoSubColor}" />
+    <SolidColorBrush x:Key="LogoBackgroundBrush" Color="{StaticResource LogoBackground}" />
+    <SolidColorBrush x:Key="CollapseIconBrush" Color="{StaticResource CollapseIconColor}"/>
+    <SolidColorBrush x:Key="CollapseIconBackgroundColorBrush" Color="{StaticResource CollapseIconBackgroundColor}"/>
+    <SolidColorBrush x:Key="CollapseIconBorderColorBrush" Color="{StaticResource CollapseIconBorderColor}"/>
+
+    <!--  Generic  -->
+    <SolidColorBrush x:Key="KeyBoardBackgroundBrush" Color="{StaticResource KeyBoardBackground}" />
+    <SolidColorBrush x:Key="SelectionColor" Color="{StaticResource SelectionBackground}" />
+    <SolidColorBrush x:Key="LightSelectionColor" Color="{StaticResource LightSelectionBackground}" />
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="DarkBackgroundBrush" Color="{StaticResource DarkBackgroundColor}" />
+    <SolidColorBrush x:Key="ShortcutBackgroundBrush" Color="{StaticResource CustomerDetailsBackgroundColor}"/>
+    <SolidColorBrush x:Key="ShortcutListViewBackgroundBrush" Color="{StaticResource HeaderBackground}"/>
+    <SolidColorBrush x:Key="ShortcutPrimaryBackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+    <SolidColorBrush x:Key="ShortcutBorderBrush" Color="{StaticResource ShortcutBorderColor}"/>
+    <SolidColorBrush x:Key="ShortcutListBorderBrush" Color="{StaticResource CartHeaderBorder}"/>
+    <SolidColorBrush x:Key="ShortcutCloseIconForegroundBrush" Color="{StaticResource HeaderForeground}"/>
+    <SolidColorBrush x:Key="ShortcutKeyBackgroundBrush" Color="{StaticResource ShortcutKeyBackgroundColor}"/>
+    <SolidColorBrush x:Key="ShortcutKeyBorderBrush" Color="{StaticResource ShortcutKeyBackgroundColor}"/>
+    <SolidColorBrush x:Key="ShortcutSearchBorderColorBrush" Color="{StaticResource ShortcutSearchBorderColor}"/>
+    <SolidColorBrush x:Key="ShortcutSearchForegroundColorBrush" Opacity="0.3" Color="{StaticResource HeaderForeground}"/>
+    <SolidColorBrush x:Key="ShortcutSearchIconForegroundColorBrush" Opacity="0.3" Color="{StaticResource HeaderForeground}"/>
+    <SolidColorBrush x:Key="ShortcutClearButtonColorBrush" Opacity="0.3" Color="{StaticResource HeaderForeground}"/>
+    <SolidColorBrush x:Key="SecondaryLeftPaneBackgroundBrush" Color="{StaticResource SecondaryLeftPanelBackgroundColor}" />
+    <SolidColorBrush x:Key="SecondaryLeftPanelDividerBrush" Color="{StaticResource SecondaryLeftPanelDividerColor}"/>
+    <SolidColorBrush x:Key="RightPaneBackgroundBrush" Color="{StaticResource RightPaneBackgroundColor}" />
+    <SolidColorBrush x:Key="BackgroundDisabledBrush" Color="{StaticResource BackgroundDisabledColor}" />
+    <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderBrushColor}" />
+    <SolidColorBrush x:Key="CustomBorderBrush" Color="{StaticResource CustomBorderBrushColor}" />
+    <SolidColorBrush x:Key="FlyoutBorderBrush" Color="{StaticResource FlyoutBorder}" />
+    <SolidColorBrush x:Key="BorderPopupBrush" Color="{StaticResource BorderPopupBrushColor}" />
+    <SolidColorBrush x:Key="BorderDisabledBrush" Color="{StaticResource BorderBrushColor}" />
+    <SolidColorBrush x:Key="Foreground" Color="{StaticResource ForegroundColor}" />
+    <SolidColorBrush x:Key="ForegroundDisabled" Color="{StaticResource ForegroundDisabledColor}" />
+    <SolidColorBrush x:Key="ForegroundSelected" Color="{StaticResource SelectedItemForegroundColor}" />
+    <SolidColorBrush x:Key="BackgroundHoverBrush" Color="{StaticResource SelectionBackground}" />
+    <SolidColorBrush x:Key="SelectedItemForeground" Color="{StaticResource SelectedItemForegroundColor}" />
+    <SolidColorBrush x:Key="CartSelectionForegroundBrush" Color="{StaticResource CartSelectionForegroundColor}" />
+    <SolidColorBrush x:Key="SelectedItemBorder" Color="{StaticResource BorderBrushColor}" />
+    <SolidColorBrush x:Key="Accent" Color="{StaticResource AccentColor}" />
+    <SolidColorBrush x:Key="ItemImageBackgroundColorBrush" Color="{StaticResource ItemImageBackgroundColor}" />
+    <SolidColorBrush x:Key="DiscountBackgroundColorBrush" Color="{StaticResource DiscountBackgroundColor}" />
+    <SolidColorBrush x:Key="DiscountForegroundColorBrush" Color="{StaticResource DiscountForegroundColor}" />
+    <SolidColorBrush x:Key="AvailableStockForegroundColorBrush" Color="{StaticResource AvailableStockForegroundColor}" />
+    <SolidColorBrush x:Key="ItemImageBorderColorBrush" Color="{StaticResource ItemImageBorderColor}" />
+    <SolidColorBrush x:Key="CrossIconForegroundcolorBrush" Color="{StaticResource CrossIconForegroundcolor}" />
+    <SolidColorBrush x:Key="SalesManTagColorBrush" Color="{StaticResource SalesManTagColor}"/>
+    <SolidColorBrush x:Key="AlwaysOnScrollBorderBrush" Color="{StaticResource DefaultButtonBackground}" />
+    <SolidColorBrush x:Key="ScrollBarArrowIconColorBrush" Color="{StaticResource ScrollBarArrowIconColor}" />
+    <SolidColorBrush x:Key="CartDensityButtonSelectionColorBrush" Color="{StaticResource VoucherDtaGridBorderColor}" />
+    <SolidColorBrush x:Key="CartTileBackgroundColorBrush" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="SalescartItemDetailsForegroundColorBrush" Color="{StaticResource SalescartItemDetailsForegroundColor}" />
+    <SolidColorBrush x:Key="SalescartItemNameForegroundColorBrush" Color="{StaticResource WhiteForegroundColor}" />
+    <SolidColorBrush x:Key="SalesCartBarcodeForegroundColorBrush" Color="{StaticResource SalescartItemDetailsForegroundColor}" />
+
+    <SolidColorBrush x:Key="DiscountMenuSelectionColorBrush" Color="{StaticResource CartAndMenuSelectionBackground}" />
+    <SolidColorBrush x:Key="CartAndMenuSelectionColorBrush" Color="{StaticResource CartAndMenuSelectionBackground}" />
+    <SolidColorBrush x:Key="MenuSelectionColorBrush" Color="{StaticResource MenuSelectionBackground}" />
+    <SolidColorBrush x:Key="LastSaleCheckBoxColorBrush" Color="{StaticResource SVGForegroundColor}"/>
+    <SolidColorBrush x:Key="SpotlightTagBorderColorBrush" Color="{StaticResource SpotlightTagBorderColor}"/>
+    <SolidColorBrush x:Key="TagBorderColorBrush" Color="{StaticResource H1ForegroundColor}"/>
+    <SolidColorBrush x:Key="SpotlightTagBorderBackgroundColorBrush" Color="{StaticResource SpotlightTagBorderBackgroundColor}"/>
+    <SolidColorBrush x:Key="TagBorderBackgroundColorBrush" Color="{StaticResource H1ForegroundColor}"/>
+    <SolidColorBrush x:Key="SpotLightEmptyListTextColorBrush" Color="{StaticResource SpotLightEmptyListTextColor}"/>
+    <SolidColorBrush x:Key="SpotLightListHeaderColorBrush" Color="{StaticResource LogoTitleColor}"/>
+    <SolidColorBrush x:Key="SpotLightListHeaderBackgroundColorBrush" Color="{StaticResource SessionBordersColor}"/>
+    <SolidColorBrush x:Key="SpotLightListBoxItemBackgroundColorBrush" Color="{StaticResource SpotLightListBoxItemBackgroundColor}"/>
+    <SolidColorBrush x:Key="SpotlightBackgroundButtonColorBrush" Color="{StaticResource AboutSCGrid1Color}"/>
+    <SolidColorBrush x:Key="SpotLightEscBackgroundColorBrush" Color="{StaticResource SessionBordersColor}"/>
+    <SolidColorBrush x:Key="SpotLightEmptyListTextBorderColorBrush" Color="{StaticResource SpotLightListBoxItemBackgroundColor}"/>
+    <SolidColorBrush x:Key="PayUHeaderColorBrush" Color="{StaticResource PayUHeaderColor}"/>
+    <SolidColorBrush x:Key="FloatingKeyBoardBackgroundColorBrush" Color="{StaticResource DiscountBackgroundColor}"/>
+    <SolidColorBrush x:Key="FloatingKeyBoardButtonBackgroundColorBrush" Color="{StaticResource SpotlightTagBorderColor}"/>
+    <SolidColorBrush x:Key="FloatingKeyBoardButtonBorderColorBrush" Color="{StaticResource SpotlightTagBorderColor}"/>
+    <SolidColorBrush x:Key="FloatingKeyBoardButtonHoverColorBrush" Color="{StaticResource FloatingKeyBoardButtonHoverColor}"/>
+
+    <Thickness  x:Key="SpotLightSearchBorderThickness" Left="1" Top="1"  Right="1" Bottom="1" />
+
+    <SolidColorBrush x:Key="LightBorderBrush" Color="{StaticResource LightBorderColor}" />
+    <SolidColorBrush x:Key="LightPopupBorderBrush" Color="{StaticResource CartAndMenuSelectionBackground}" />
+    <SolidColorBrush x:Key="ArrowFillBrush" Color="White" />
+    <SolidColorBrush
+        x:Key="GrayForegroundBrush"
+        Opacity="0.6"
+        Color="{StaticResource ForegroundColor}" />
+    <SolidColorBrush x:Key="WhiteForeground" Color="{StaticResource WhiteForegroundColor}" />
+    <SolidColorBrush x:Key="BlackForeground" Color="{StaticResource BlackForegroundColor}" />
+    <SolidColorBrush x:Key="GenericTextBoxBorderBrush" Color="{StaticResource GenericTextBoxBorderColor}" />
+    <SolidColorBrush x:Key="WaterMarkForegroundBrush" Color="{StaticResource WaterMarkForegroundColor}"/>
+    <SolidColorBrush x:Key="CustomerWaterMarkForegroundBrush" Color="{StaticResource CustomerWaterMarkForegroundColor}"/>
+    <SolidColorBrush x:Key="AlertHeaderColorBrush" Color="{StaticResource AlertHeaderColor}" />
+    <SolidColorBrush x:Key="PaymentAlertHeaderColorBrush" Color="{StaticResource PaymentAlertHeaderColor}" />
+    <SolidColorBrush
+        x:Key="NumberForegroundBrush"
+        Opacity="0.6"
+        Color="{StaticResource WhiteForegroundColor}" />
+    <SolidColorBrush x:Key="CatagoryBarColorBrush" Color="{StaticResource CatagoryBarColor}" />
+    <SolidColorBrush x:Key="PriceLevelBorderColorBrush" Color="{StaticResource PriceLevelBorderColor}" />
+    <SolidColorBrush x:Key="PriceLevelBackgroundColorBrush" Color="{StaticResource PriceLevelBackgroundColor}" />
+    <SolidColorBrush x:Key="PriceLevelForegroundColorBrush" Color="{StaticResource PriceLevelForegroundColor}" />
+    <SolidColorBrush x:Key="DeliveryTypeForegroundColorBrush" Color="{StaticResource DeliveryTypeBackgroundColor}" />
+    <SolidColorBrush x:Key="DeliveryTypeBackgroundColorBrush" Color="{StaticResource DeliveryTypeBackgroundColor}" />
+    <SolidColorBrush x:Key="BillRemarksBackgroundColorBrush" Color="{StaticResource BillRemarksColor}" />
+    <SolidColorBrush x:Key="WarningIconForegroundColorBrush" Color="{StaticResource WarningIconForegroundColor}"/>
+    <SolidColorBrush x:Key="ErrorIconForegroundColorBrush" Color="{StaticResource ErrorIconForegroundColor}"/>
+    <SolidColorBrush x:Key="WarningBackgroundColorBrush" Color="{StaticResource WarningBackgroundColor}"/>
+    <SolidColorBrush x:Key="ErrorBackgroundColorBrusg" Color="{StaticResource ErrorBackgroundColor}"/>
+    <SolidColorBrush x:Key="ErrorForegroundColorBrush" Color="{StaticResource ErrorIconForegroundColor}"/>
+    <SolidColorBrush x:Key="ErrorExceedForegroundColorBrush" Color="{StaticResource ErrorExceedForegroundColor}"/>
+    <SolidColorBrush x:Key="WarningExceedForegroundColorBrush" Color="{StaticResource WarningExceedForegroundColor}"/>
+    <SolidColorBrush x:Key="WarningNoteForegroundColorBrush" Color="{StaticResource WarningNoteForegroundColor}"/>
+    <SolidColorBrush x:Key="WariningCustomerForegroundColorBrush" Color="{StaticResource WariningCustomerForegroundColor}"/>
+    <SolidColorBrush x:Key="ToastIconBackgroundColorBrush" Color="{StaticResource ToastIconBackgroundColor}"/>
+    <SolidColorBrush x:Key="SuccessBackgroundColorBrush" Color="{StaticResource SuccessBackground}"/>
+    <SolidColorBrush x:Key="ToastSuccessfulBgColorBrush" Color="{StaticResource ToastSuccessfulBgColor}"/>
+    <SolidColorBrush x:Key="ToastSuccessfulBorderColorBrush" Color="{StaticResource ToastSuccessfulBorderColor}"/>
+    <SolidColorBrush x:Key="PaymentSummaryOrangeSignalColorBrush" Color="{StaticResource WarningExceedForegroundColor}"/>
+    <SolidColorBrush x:Key="PaymentSummaryRedSignalColorBrush" Color="{StaticResource ErrorExceedForegroundColor}"/>
+    <SolidColorBrush x:Key="ReceiptsSuccessBgColourBrush" Color="{StaticResource ReceiptsToastBgColor}"/>
+    <SolidColorBrush x:Key="ReceiptsSuccessfulBorderColorBrush" Color="{StaticResource ReceiptsToastBorder}"/>
+    <SolidColorBrush x:Key="SerialNumberBackgroundColorBrush" Color="{StaticResource SerialNumberBackgroundColor}"/>
+    <SolidColorBrush x:Key="LoginAttemptToastBackgroundColor" Color="{StaticResource LoginAttemptToastBackground}"/>
+    <SolidColorBrush x:Key="LoginAttemptToastBackBrushColor" Color="{StaticResource LoginAttemptToastBackBrush}"/>
+    <SolidColorBrush x:Key="IntegratedPaymentToastBackgroundColorBrush" Color="{StaticResource IntegratedPaymentToastBackground}"/>
+    <SolidColorBrush x:Key="IntegratedPaymentToastBorderColorBrush" Color="{StaticResource IntegratedPaymentToastBorder}"/>
+    <SolidColorBrush x:Key="IntegratedPaymentToastIconColorBrush" Color="{StaticResource ErrorExceedForegroundColor}"/>
+    <SolidColorBrush x:Key="PayUSuccessfulBgColorBrush" Color="{StaticResource PayUBackGroundColor}"/>
+    <SolidColorBrush x:Key="CashDenominationButtonBackgroundBrush" Color="{StaticResource CashDenominationButtonBackground}"/>
+    <SolidColorBrush x:Key="CashDenominationButtonBorderdBrush" Color="{StaticResource CashDenominationButtonBorder}"/>
+    <SolidColorBrush x:Key="CashDenominationButtonHoverBrush" Color="{StaticResource CashDenominationButtonHover}"/>
+    <SolidColorBrush x:Key="DropDownTabColorBrush" Color="{StaticResource DefaultButtonBackground}"/>
+    <SolidColorBrush x:Key="DropDownTabDisableColorBrush" Color="{StaticResource DropDownTabDisableColor}"/>
+    <SolidColorBrush x:Key="TabButtonSelectedDisableColorBrush" Color="{StaticResource TabButtonSelectedDisableColor}"/>
+    <SolidColorBrush x:Key="DropDownTabDisableTextColorBrush" Color="{StaticResource DropDownTabDisableTextColor}"/>
+
+    <!-- Focused Tab Border  -->
+    <SolidColorBrush x:Key="FocusedTabBorderColorBrush" Color="{StaticResource FocusedTabBorderColor}"/>
+
+    <!--  Vertical Tab Specfic  -->
+    <SolidColorBrush x:Key="TabHeaderBackgroundBrush" Color="{StaticResource TabHeaderBackground}" />
+    <SolidColorBrush x:Key="SecondHeaderBackgroundBrush" Color="{StaticResource SecondHeaderBackground}" />
+    <SolidColorBrush x:Key="ScrollLineDesignColorBrush" Color="{StaticResource ScrollLineColor}" />
+    <SolidColorBrush x:Key="ScrollLineColorBrush" Color="{StaticResource ScrollLineColor}" />
+    <SolidColorBrush x:Key="TextForeground" Color="{StaticResource SVGForegroundColor}" />
+    <SolidColorBrush x:Key="SVGForeground" Color="{StaticResource SVGForegroundColor}" />
+
+    <!--  Panel  -->
+    <SolidColorBrush x:Key="ListPanelBackgroundBrush" Color="{StaticResource ListPanelBackground}" />
+
+    <!--  Footer  -->
+    <SolidColorBrush x:Key="FooterBackgroundBrush" Color="{StaticResource FooterBackground}" />
+    <SolidColorBrush
+        x:Key="FooterForegroundBrush"
+        Opacity="0.6"
+        Color="{StaticResource FooterForeground}" />
+
+    <!--  Header  -->
+    <SolidColorBrush x:Key="HeaderBackgroundBrush" Color="{StaticResource HeaderBackground}" />
+    <SolidColorBrush x:Key="HeaderForegroundBrush" Color="{StaticResource HeaderForeground}" />
+    <SolidColorBrush x:Key="HeaderBorderBrush"   Color="{StaticResource HeaderBorderBrushColor}" />
+    <SolidColorBrush x:Key="SalesBillHeaderColorBrush" Color="{StaticResource SalesBillHeaderColor}" />
+    <SolidColorBrush x:Key="SalesOrderHeaderColorBrush" Color="{StaticResource SalesOrderHeaderColor}" />
+    <SolidColorBrush x:Key="SalesReturnHeaderColorBrush" Color="{StaticResource SalesReturnHeaderColor}" />
+    <SolidColorBrush x:Key="ReceiptsHeaderColorBrush" Color="{StaticResource ReceiptsHeaderColor}" />
+    <SolidColorBrush x:Key="CollectionEntryHeaderColorBrush" Color="{StaticResource CollectionEntryHeaderColor}" />
+
+    <SolidColorBrush x:Key="SalesCartHeaderBackgroundColorBrush" Color="{StaticResource SalesCartHeaderBackgroundColor}" />
+    <SolidColorBrush x:Key="TagBorderBrush" Color="{StaticResource TagBorderBrushColor}" Opacity="1" />
+    <SolidColorBrush x:Key="LastSalePopUpColorBrush" Color="{StaticResource LastSalePopUpColor}" />
+
+    <!--  TransactionBackgroundColor  -->
+    <SolidColorBrush x:Key="TransactionInvoiceBackGroundColorBrush" Color="{StaticResource TransactionInvoiceBackGroundColor}" />
+
+
+    <!-- Grid Splitter-->
+    <SolidColorBrush x:Key="GridSplitterBrush" Color="{StaticResource GridSplitterBrushColor}" />
+    <SolidColorBrush x:Key="GridHeaderSplitterBrush" Opacity="0.2" Color="{StaticResource GridHeaderSplitterBrushColor}" />
+    <SolidColorBrush x:Key="SecondaryGridSplitterBrush" Color="{StaticResource SecondaryGridSplitterBrushColor}"/>
+    <SolidColorBrush x:Key="SettingsViewSplitterBrush" Color="{StaticResource SettingsViewSplitterBrushColor}" />
+    <SolidColorBrush x:Key="TransactionBorderColorBrush" Color="{StaticResource TransactionBorderColor}" />
+    <SolidColorBrush x:Key="FlyoutBorderColorBrush" Color="{StaticResource FlyoutBorderColor}" />
+
+    <!--  Search View  -->
+    <SolidColorBrush x:Key="SearchBackgroundColorBrush" Color="{StaticResource SearchBackgroundColor}" />
+    <SolidColorBrush x:Key="LiveSearchBackgroundColorBrush" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="MainButtonBackground" Color="{StaticResource MainButtonBackgroundColor}" />
+    <!--  Button Colors  -->
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="{StaticResource OptionButtonBackground}" />
+    <SolidColorBrush x:Key="DefaultButtonBackgroundBrush" Color="{StaticResource DefaultButtonBackground}" />
+    <SolidColorBrush x:Key="ButtonDisableColor" Color="{StaticResource OptionButtonBackground}" />
+    <SolidColorBrush x:Key="ButtonForeground" Color="{StaticResource OptionButtonForeground}" />
+    <SolidColorBrush x:Key="AboutForeground" Color="{StaticResource AboutViewForeground}" />
+    <SolidColorBrush x:Key="SecondaryButtonBorderBrush" Color="{StaticResource SecondaryButtonBorder}" />
+    <SolidColorBrush
+        x:Key="BlueButtonForegroundDisabled"
+        Opacity="0.15"
+        Color="{StaticResource BlueButtonForeground}" />
+    <SolidColorBrush
+        x:Key="ButtonForegroundDisabled"
+        Opacity="0.15"
+        Color="{StaticResource OptionButtonForeground}" />
+    <SolidColorBrush x:Key="SalesReturnButtonForegroundDisabled" Opacity="0.4" Color="{StaticResource LogoTitleColor}"/>
+    <SolidColorBrush x:Key="ButtonRegisterHoverBackgroundBrush" Color="{StaticResource ButtonBlueHoverBackground}" />
+    <SolidColorBrush x:Key="ButtonRegisterHoverBlueBackgroundBrush" Color="{StaticResource ButtonBlueHoverBackground}" />
+    <SolidColorBrush x:Key="ButtonRegisterHoverRedBackgroundBrush" Color="{StaticResource ButtonRegisterHoverRedBackground}" />
+    <SolidColorBrush x:Key="ButtonOkCancelHoverBackgroundBrush" Color="{StaticResource ButtonBlueHoverBackground}" />
+    <SolidColorBrush x:Key="ButtonBlueWrapHoverBackgroundBrush" Color="{StaticResource ButtonBlueHoverBackground}" />
+    <SolidColorBrush x:Key="TabButtonHoverBackgroundBrush" Color="{StaticResource TabButtonHoverBackground}" />
+    <SolidColorBrush x:Key="ButtonBlueBackgroundBrush" Color="{StaticResource ButtonBlueBackground}" />
+    <SolidColorBrush x:Key="TabButtonBackgroundBrush" Color="{StaticResource CartHeaderBackground}"/>
+    <SolidColorBrush x:Key="TabWithoutCornerButtonHoverBackgroundBrush" Color="{StaticResource RightPaneBackgroundColor}"/>
+
+    <!--  Grouping Panel  -->
+    <SolidColorBrush x:Key="GroupingPanelBackgroundBrush" Color="{StaticResource GroupingPanelBackground}" />
+    <SolidColorBrush x:Key="FooterGroupingPanelBackgroundBrush" Color="{StaticResource FooterGroupingPanelBackground}" />
+    <SolidColorBrush x:Key="RightFooterGroupingPanelBackgroundBrush" Color="{StaticResource RightFooterGroupingPanelBackground}" />
+    <SolidColorBrush x:Key="GroupingPanelBorderBrush" Opacity="0" Color="{StaticResource GroupingBorder}" />
+
+
+    <!--  Group box  -->
+    <!--<SolidColorBrush x:Key="GroupBoxHeaderBackgroundBrush" Color="{StaticResource SelectionColor}" />-->
+    <SolidColorBrush x:Key="GroupBoxHeaderForegroundBrush" Color="#FFFFFFFF" />
+
+    <!--  Scroll Bar  -->
+    <SolidColorBrush x:Key="ScrollBarMouseDownBrush" Color="#FFECECEC" />
+    <SolidColorBrush x:Key="ScrollbarGlyphBrush" Color="#FF9C9A9A" />
+    <SolidColorBrush x:Key="ScrollbarGlyphMouseOver" Color="#FFC7C7C7" />
+
+    <!--  Label Colors  -->
+    <SolidColorBrush x:Key="H1Color" Color="{StaticResource H1ForegroundColor}" />
+    <SolidColorBrush x:Key="ProductDescColor" Color="{StaticResource ProductDescForegroundColor}" />
+    <SolidColorBrush x:Key="UITotalQuantityColorBrush" Color="{StaticResource UITotalQuantityColor}" />
+
+
+    <!--  On off button  -->
+    <SolidColorBrush x:Key="OnOffButtonSliderBackground" Color="#FF6D6E70" />
+    <SolidColorBrush x:Key="OnOffButtonSliderBackgroundChecked" Color="#1C9E0B" />
+    <SolidColorBrush x:Key="OnOffButtonBorderBrush" Color="#FF595959" />
+    <SolidColorBrush x:Key="OnOffButtonBorderBrushCheked" Color="#FF595959" />
+    <SolidColorBrush x:Key="OnOffButtonThumbBackground" Color="White" />
+    <SolidColorBrush x:Key="OnOffButtonThumbBackgroundChecked" Color="White" />
+    <SolidColorBrush x:Key="ForegroundLight" Color="Gray" />
+
+    <!--BilledSuccess-->
+    <SolidColorBrush x:Key="BillSuccessIconColor" Color="#FF163121" />
+
+    <!--  Datagrid  -->
+    <Color x:Key="DataGridBackgroundHoverBrushColor">#474E56</Color>
+    <SolidColorBrush x:Key="DataGridBackgroundBrush" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="DataGridBackgroundHoverBrush" Opacity="0.1" Color="{StaticResource DataGridSelectionBackground}" />
+    <SolidColorBrush x:Key="DataGridLineBrush" Color="{StaticResource LineSplitColor}" />
+    <SolidColorBrush x:Key="DataGridSelectedItemForegroundColor">#FFFFFFFF</SolidColorBrush>
+    <SolidColorBrush x:Key="DataGridKeyForegroundColor" Color="{StaticResource CartInfoHeaderForeground}" />
+    <SolidColorBrush x:Key="DataGridLabelBackgroundColor" Color="{StaticResource Highlight2Background}" />
+    <SolidColorBrush x:Key="DataGridLabelBackground1Color" Color="{StaticResource Highlight1Background}" />
+    <SolidColorBrush x:Key="DataGridLabelHighlightForegroundColor" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="DataGridForegroundColor" Color="{StaticResource ForegroundColor}" />
+    <SolidColorBrush x:Key="DataGridHeaderHoverColor" Color="{StaticResource CartHeaderBackground}" />
+
+    <!-- Popup-->
+    <SolidColorBrush x:Key="PopupHeaderLineBrush" Opacity="0.3" Color="{StaticResource PopupLineColor}" />
+    <SolidColorBrush x:Key="PopupBorderLineBrush" Opacity="0.3" Color="{StaticResource PopupBorderLineColor}" />
+    <SolidColorBrush x:Key="PopupMessageBackgroundBrush" Color="{StaticResource PopupMessageBackground}"/>
+    <SolidColorBrush x:Key="PopupMessageForegroundBrush" Color="{StaticResource PopupMessageForeground}"/>
+    <SolidColorBrush x:Key="PopupGridLineBrush" Opacity="0.1" Color="{StaticResource PopupLineColor}" />
+    <SolidColorBrush x:Key="PopupDataGridHeaderBackgroundBrush" Color="{StaticResource PopupDataGridHeaderBackground}" />
+    <SolidColorBrush x:Key="VoucherDataGridHeaderBackgroundBrush" Color="{StaticResource VoucherDataGridHeaderBackground}" />
+    <SolidColorBrush x:Key="VoucherPopupDataGridHeaderBackgroundBrush" Color="#141627" />
+    <SolidColorBrush x:Key="LoyaltyPopupDataGridHeaderBackgroundBrush" Color="{StaticResource PopupDataGridHeaderBackground}" />
+    <SolidColorBrush x:Key="PopupFooterLabelBrush" Color="{StaticResource PopupFooterLabelColor}"/>
+    <SolidColorBrush x:Key="PopupFooterLabelForegroundBrush" Color="{StaticResource PopupFooterLabelForegroundColor}"/>
+    <SolidColorBrush x:Key="PopupFooterDisabledBrush" Color="{StaticResource PopupFooterDisabledColor}"/>
+    <SolidColorBrush x:Key="PopupFooterBackgroundBrush" Color="{StaticResource PopupFooterBackgroundColor}"/>
+
+    <!--  Closable tab control  -->
+    <SolidColorBrush x:Key="CloseTabItemBackgroundHover" Color="#036797" />
+    <!--  Tags  -->
+    <!--<SolidColorBrush x:Key="TagItemBackground" Color="{StaticResource SelectionColor}" />-->
+    <SolidColorBrush x:Key="TagItemBackgroundSelected" Color="#FF036797" />
+    <!--  Grid  -->
+    <SolidColorBrush x:Key="GridHeaderBackground" Color="{StaticResource CartHeaderBackground}" />
+    <SolidColorBrush x:Key="GridHeaderBorder" Color="{StaticResource CartHeaderBorder}" />
+
+    <!--  DialogBox  -->
+    <SolidColorBrush x:Key="DialogBorder" Color="{StaticResource TabHeaderBackground}" />
+    <SolidColorBrush x:Key="DialogBackground" Color="{StaticResource OptionButtonBackground}" />
+    <SolidColorBrush x:Key="DialogBorderBackground" Color="{StaticResource OptionButtonBackground}" />
+    <SolidColorBrush x:Key="DialogContentBackground">#4A5A73</SolidColorBrush>
+
+    <!--  Session  -->
+    <SolidColorBrush x:Key="TemplateBorderHeader">#0C131D</SolidColorBrush>
+
+    <!--  Menu  -->
+    <SolidColorBrush x:Key="MenuBackground" Color="{StaticResource OptionButtonBackground}" />
+    <SolidColorBrush x:Key="DarkBackgroundH1ForeColor" Color="White" />
+    <SolidColorBrush x:Key="DarkBackgroundH3ForeColor" Color="Gray" />
+
+    <!--  SVG Logo  -->
+
+    <SolidColorBrush x:Key="SVGLogoForeground" Color="White" />
+    <SolidColorBrush x:Key="SVGAboutIconsForeground" Color="White" />
+    <SolidColorBrush x:Key="SVGLogoBackground" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="SVGAboutLogoForeground" Color="#006db6" />
+    <SolidColorBrush x:Key="SVGLogoForeground_GFT" Color="White" />
+    <SolidColorBrush x:Key="SVGAboutLogoForeground_GFT" Color="#2b2f7f" />
+    <SolidColorBrush x:Key="SVGLogoGreenForeground" Color="White" />
+    <SolidColorBrush x:Key="SVGLogoBlueForeground" Color="White" />
+
+    <!-- Category Product Touch View  -->
+    <SolidColorBrush x:Key="CategoryProductTouchViewBg" Color="{StaticResource ItemsWidgetBg}" />
+    <SolidColorBrush
+        x:Key="CategoryProductTouchViewNameContainer"
+        Opacity="0.8"
+        Color="{StaticResource ItemsWidgetNameContainerBg}" />
+    <SolidColorBrush
+        x:Key="StockColorBrush"
+        Color="{StaticResource StockColor}" />
+    <SolidColorBrush
+        x:Key="OutofStockBgColorBrush"
+        Opacity="0.9"
+        Color="{StaticResource OutofStockBgColor}" />
+    <SolidColorBrush
+        x:Key="OutofStockFontColorBrush"
+        Color="{StaticResource OutofStockFontColor}" />
+    <SolidColorBrush
+        x:Key="LimitedBgColorBrush"
+        Opacity="0.9"
+        Color="{StaticResource LimitedStockBgColor}" />
+    <SolidColorBrush
+        x:Key="LimitedStockFontColorBrush"
+        Color="{StaticResource LimitedStockFontColor}" />
+    <SolidColorBrush x:Key="OutstandingForegroundColorBrush" Color="{StaticResource OutstandingForegroundColor}"/>
+    <SolidColorBrush
+        x:Key="StockColorForScrollingBrush"
+        Color="{StaticResource StockColorForScrolling}" />
+
+    <SolidColorBrush x:Key="TouchWrapButtonForegroundBrush" Color="{StaticResource ForegroundColor}" />
+
+
+    <!--  Signal colors  -->
+
+    <SolidColorBrush x:Key="GreenSignalBrush" Color="{StaticResource GreenSignalColor}" />
+    <SolidColorBrush x:Key="LoyaltyRemainigBrush" Color="{StaticResource LoyaltyStillRemainingColor}" />
+    <SolidColorBrush x:Key="RedSignalBrush" Color="{StaticResource RedSignalColor}" />
+    <SolidColorBrush x:Key="RemoveFromCartlColorBrush" Color="{StaticResource RemoveFromCartlColor}" />
+    <SolidColorBrush x:Key="OrangeSignalBrush" Color="{StaticResource OrangeSignalColor}" />
+    <SolidColorBrush x:Key="MandatorySignalBrush" Color="{StaticResource WhiteForegroundColor}"/>
+    <SolidColorBrush x:Key="GreenSignalBackgroundBrush" Color="{StaticResource GreenSignalBackgroundColor}" />
+    <SolidColorBrush x:Key="RedSignalBackgroundBrush" Color="{StaticResource RedSignalBackgroundColor}" />
+    <SolidColorBrush x:Key="StillRemaingBackgroundBrush" Color="{StaticResource RedSignalBackgroundColor}"/>
+    <SolidColorBrush x:Key="LoyaltyStillRemainingBrush"  Color="{StaticResource RedSignalBackgroundColor}"/>
+    <SolidColorBrush x:Key="VoucherGridBackgroundBrush" Color="{StaticResource RedSignalBackgroundColor}" />
+    <SolidColorBrush x:Key="RRNGridBackgroundBrush" Color="{StaticResource RedSignalBackgroundColor}" />
+    <SolidColorBrush x:Key="RRNUseCreditBrush" Color="{StaticResource RRNUseCreditColor}" />
+    <SolidColorBrush x:Key="VoucherAddButtonBrush" Color="White" />
+    <SolidColorBrush x:Key="SessionBorderBrush" Color="{StaticResource SessionBorderColor}" />
+    <SolidColorBrush x:Key="EndSessionBorderBrush" Color="{StaticResource EndSessionBorderColor}" />
+    <SolidColorBrush x:Key="EndSessionButtonBrush" Color="{StaticResource EndSessionBackgroundColor}" />
+    <SolidColorBrush x:Key="SessionMenuBoderBrush" Color="{StaticResource SessionMenuBoderColor}"/>
+    <SolidColorBrush x:Key="VoucherDataGridBrush" Color="{StaticResource VoucherDtaGridBorderColor}" />
+    <SolidColorBrush x:Key="FeedbackSelectionColor"  Color="{StaticResource FeedbackSelectionBackground}" />
+    <SolidColorBrush x:Key="AboutScGridBrush" Color="{StaticResource AboutSCGridColor}" />
+    <SolidColorBrush x:Key="EndSessionRadioButtonBrush" Color="{StaticResource EndSessionRadioButtonColor}" />
+    <SolidColorBrush x:Key="AboutScGrid1Brush" Color="{StaticResource AboutSCGrid1Color}" />
+    <SolidColorBrush x:Key="AboutScBorderBrush" Color="{StaticResource AboutSCBorderColor}" />
+    <SolidColorBrush x:Key="SessionChartCashBrush" Color="{StaticResource SessionChartCashColor}" />
+    <SolidColorBrush x:Key="SessionChartCardBrush" Color="{StaticResource SessionChartCardColor}" />
+    <SolidColorBrush x:Key="SessionChartWalletBrush" Color="{StaticResource SessionChartWalletColor}" />
+    <SolidColorBrush x:Key="SessionChartCreditSaleBrush" Color="{StaticResource SessionChartCreditSaleColor}" />
+    <SolidColorBrush x:Key="SessionInprogressTextBrush" Color="{StaticResource SessionInprogressTextColor}" />
+    <SolidColorBrush x:Key="SessionClosedTextBrush" Color="{StaticResource SessionClosedTextColor}" />
+    <SolidColorBrush x:Key="SessionFooterBackgroundBrush" Color="{StaticResource SessionFooterBackgroundColor}"/>
+    <SolidColorBrush x:Key="CloseSessionForegroundBrush" Color="{StaticResource CloseSessionForegroundColor}"/>
+    <SolidColorBrush x:Key="ProfileGridBackgroundBrush" Color="{StaticResource ProfileGridBackgroundColor}" />
+    <SolidColorBrush x:Key="ProfileBackgroundBrush" Color="{StaticResource ProfileBackgroundColor}"/>
+    <SolidColorBrush x:Key="ProfileBorderBrush" Color="{StaticResource ProfileBorderColor}"/>
+    <SolidColorBrush x:Key="SessionFooterBackgroundGridBrush" Color="{StaticResource SessionFooterBackgroundColor}"/>
+    <SolidColorBrush x:Key="SessionTextForegroundBrush" Color="{StaticResource SessionTextForeground}"/>
+    <SolidColorBrush x:Key="SessionDiscrepancyForegroundBrush" Color="{StaticResource SessionDiscrepancyForegroundColor}" />
+    <SolidColorBrush x:Key="SessionMenuForegroundBrush" Color="{StaticResource SessionMenuForegroundColor}"/>
+    <SolidColorBrush x:Key="AboutWeighingContentBrush" Color="{StaticResource AboutWeighingContentColor}" />
+    <SolidColorBrush x:Key="SessionDataGridHeaderBrush" Color="{StaticResource SessionDataGridHeaderColor}" />
+    <SolidColorBrush x:Key="EditMoreButtonBackgroundBrush" Color="{StaticResource EditMoreButtonBackgroundColor}" />
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush1" Color="{StaticResource PaymentSummaryBarColor1}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush2" Color="{StaticResource PaymentSummaryBarColor2}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush3" Color="{StaticResource PaymentSummaryBarColor3}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush4" Color="{StaticResource PaymentSummaryBarColor4}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush5" Color="{StaticResource PaymentSummaryBarColor5}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush6" Color="{StaticResource PaymentSummaryBarColor6}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush7" Color="{StaticResource PaymentSummaryBarColor7}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush8" Color="{StaticResource PaymentSummaryBarColor8}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush9" Color="{StaticResource PaymentSummaryBarColor9}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush10" Color="{StaticResource PaymentSummaryBarColor10}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush11" Color="{StaticResource PaymentSummaryBarColor11}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush12" Color="{StaticResource PaymentSummaryBarColor12}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush13" Color="{StaticResource PaymentSummaryBarColor13}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush14" Color="{StaticResource PaymentSummaryBarColor14}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush15" Color="{StaticResource PaymentSummaryBarColor15}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush16" Color="{StaticResource PaymentSummaryBarColor16}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush17" Color="{StaticResource PaymentSummaryBarColor17}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush18" Color="{StaticResource PaymentSummaryBarColor18}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush19" Color="{StaticResource PaymentSummaryBarColor19}"/>
+    <SolidColorBrush x:Key="PaymentSummaryBarBrush20" Color="{StaticResource PaymentSummaryBarColor20}"/>
+    <SolidColorBrush x:Key="SessionIdBrush" Color="{StaticResource SessionIdColor}"/>
+    <SolidColorBrush x:Key="SessionCloseButtonBackgroundBrush" Color="{StaticResource SessionCloseButtonBackgroundColor}"/>
+    <SolidColorBrush x:Key="SessionButtonBackgroundBrush" Color="{StaticResource SessionButtonBackgroundColor}"/>
+    <SolidColorBrush x:Key="SessionUserColorBrush" Color="{StaticResource SessionUserColor}"/>
+    <SolidColorBrush x:Key="SessionBorderColorBrush" Color="{StaticResource SessionBordersColor}"/>
+    <SolidColorBrush x:Key="SessionOverViewTextBrush" Color="{StaticResource SessionOverViewTextColor}"/>
+    <SolidColorBrush x:Key="NoSummaryTextColorBrush" Color="{StaticResource NoSummaryTextColor}"/>
+    <SolidColorBrush x:Key="CustomerDisplayBrush" Color="{StaticResource CustomerDisplayColor}"/>
+    <SolidColorBrush x:Key="ProfileAddrBrush" Color="{StaticResource ProfileAddrColor}"/>
+    <SolidColorBrush x:Key="SessionSearchBackgroundBrush" Color="{StaticResource SessionSearchBackgroundColor}"/>
+    <SolidColorBrush x:Key="AboutCopyRightTextBlockColorBrush" Color="{StaticResource AboutCopyRightTextBlockColor}" />
+    <SolidColorBrush x:Key="EndSessionMouseHoverColorBrush" Color="{StaticResource EndSessionMouseHoverColor}" />
+    <SolidColorBrush x:Key="AutoSessionTextColorBrush" Color="{StaticResource AutoSessionTextColor}"/>
+    <SolidColorBrush x:Key="GreyBlackForegroundBrush" Color="{StaticResource GreyBlackColor}"/>
+    <SolidColorBrush x:Key="DOValidationTextColorBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="AutoSessionTextBackgroundBrush" Color="{StaticResource AutoSessionTextBackgroundColor}"/>
+    <SolidColorBrush x:Key="ViewDoDetailsDisableBrush" Color="{StaticResource ViewDoDetailsDisableColor}"/>
+    <SolidColorBrush x:Key="ViewDoDetailsEnableBrush" Color="{StaticResource ViewDoDetailsEnaableColor}"/>
+    <SolidColorBrush x:Key="CatCollapsedButtonBackgroundBrush" Color="{StaticResource CatCollapsedButtonBackgroundColor}"/>
+    <SolidColorBrush x:Key="CatButtonBackgroundBrush" Color="{StaticResource CatButtonBackgroundColor}"/>
+    <SolidColorBrush x:Key="CatButtonFillBackgroundBrush" Color="{StaticResource LogoTitleColor}"/>
+    <SolidColorBrush x:Key="ItemMarginTotalViewWarningBrush" Color="{StaticResource ItemMarginTotalViewWarning}"/>
+
+    <!-- Offers -->
+    <SolidColorBrush  x:Key="OfferForegroundColorBrush" Color="{StaticResource OfferForegroundColor}" />
+    <SolidColorBrush  x:Key="LiveSearchBoxForeground" Color ="{StaticResource DOValidationTextColorBrush}" />
+    <SolidColorBrush  x:Key="OtherInfoForeColor" Color ="{StaticResource HeaderForeground}" />
+    <SolidColorBrush  x:Key="OverViewControlHeaderBrush" Color ="{StaticResource HeaderForeground}" />
+    <SolidColorBrush  x:Key="SalesOrderListViewHeaderBrush" Color ="{StaticResource SalesOrderListViewHeaderColor}" />
+    <SolidColorBrush  x:Key="OtherInfoSubMenuForecolorBrudh" Color ="{StaticResource CartHeaderForeground}" />
+    <SolidColorBrush  x:Key="OtherInfoHeaderForeground" Color ="{StaticResource CartHeaderForeground}" />
+    <SolidColorBrush  x:Key="SalesOrderFooterBlueButtonBrush" Color ="{StaticResource SalesOrderFooterBlueButton}" />
+    <SolidColorBrush  x:Key="CompletedStatusColorBrush" Color ="{StaticResource FullSalesStatusColor}" />
+    <SolidColorBrush  x:Key="AcceptedStatusColorBrush" Color ="{StaticResource AcceptedStatusColor}" />
+    <SolidColorBrush  x:Key="CancelledStatusColorBrush" Color ="{StaticResource CancelledStatusColor}" />
+    <SolidColorBrush  x:Key="FullSalesStatusColorBrush" Color ="{StaticResource FullSalesStatusColor}" />
+    <SolidColorBrush  x:Key="OrderedStatusColorBrush" Color ="{StaticResource OrderedStatusColor}" />
+    <SolidColorBrush  x:Key="PendingStatusColorBrush" Color ="{StaticResource PendingStatusColor}" />
+    <SolidColorBrush  x:Key="Full supplyStatusColorBrush" Color ="{StaticResource Full supplyStatusColor}" />
+    <SolidColorBrush  x:Key="Partial supplyStatusColorBrush" Color ="{StaticResource Full supplyStatusColor}" />
+    <SolidColorBrush  x:Key="UnpaidStatusColorBrush" Color ="{StaticResource Full supplyStatusColor}" />
+    <SolidColorBrush  x:Key="PaidForegroundBrush" Color ="{StaticResource FullSalesStatusColor}" />
+    <SolidColorBrush  x:Key="UnpaidForegroundBrush" Color ="{StaticResource OrderedStatusColor}" />
+    <SolidColorBrush  x:Key="Partially paidForegroundBrush" Color ="{StaticResource OrderedStatusColor}" />
+    <SolidColorBrush  x:Key="SalesOrderModifierColorBrush" Color ="{StaticResource SalesOrderModifierColor}" />
+    <SolidColorBrush  x:Key="SOLogoForegroundBrush" Color ="{StaticResource SOLogoForeground}" />
+    <SolidColorBrush  x:Key="Food ReadyStatusColorBrush" Color ="{StaticResource FoodReadyStatusColor}" />
+    <SolidColorBrush  x:Key="TileSizeBorderBrush" Color ="{StaticResource TileSizeBorderColor}" />
+    <SolidColorBrush  x:Key="SOArrivedIconBackground" Color ="{StaticResource SOArrivedIconColor}" />
+    <SolidColorBrush  x:Key="SOArrivedIconOuterBackground" Color ="{StaticResource SOArrivedIconOuterColor}" />
+    <SolidColorBrush  x:Key="SOViewMoreInfoBackground" Color ="{StaticResource SOViewMoreInfoColor}" />
+    <SolidColorBrush  x:Key="SalesCustomizationBorderBrush" Color ="{StaticResource SessionBordersColor}" />
+    <SolidColorBrush  x:Key="SalesCustomizationRemoveButtonBrush" Color ="{StaticResource LastBillTextColour}" />
+    <SolidColorBrush  x:Key="SalesCustomizationButtonBrush" Color ="{StaticResource SalesCustomizationBackground}" />
+    <SolidColorBrush  x:Key="MoreViewButtonBrush" Color ="{StaticResource MoreViewButtonColour}" />
+    <SolidColorBrush  x:Key="CustomerViewBackgroundBrush" Color ="{StaticResource CartHeaderBackground}" />
+    <SolidColorBrush  x:Key="KeypadBackgroundBrush" Color ="{StaticResource KeypadColour}" />
+    <SolidColorBrush x:Key="CatCollapseBackgroundBrush" Color="{StaticResource CatagoryBarColor}"/>
+    <SolidColorBrush  x:Key="LightThemeIconColorBrush" Color ="{StaticResource PayUHeaderColor}" />
+    <SolidColorBrush  x:Key="DarkThemeIconColorBrush" Opacity="0.7"  Color ="{StaticResource PayUHeaderColor}" />
+    <SolidColorBrush  x:Key="TotalBillsTextColour" Color ="{StaticResource LastBillTextColour}" />
+    <!-- BatchLock properties color-->
+    <SolidColorBrush x:Key="BatchLockPropertiesColorBrush" Color="{StaticResource BatchLockPropertiesColor}"/>
+
+    <!-- Rate History -->
+    <SolidColorBrush x:Key="RateHistoryCustomerTagColourBrush" Color="{StaticResource RateHistoryCustomerAtTagColour}"/>
+    <SolidColorBrush x:Key="RateHistorySearchColourBrush" Opacity="0.6" Color="{StaticResource ReceiptsHeaderColor}" />
+    <SolidColorBrush x:Key="RateHistorySelectedMRPColourBrush" Color="{StaticResource LogoTitleColor}"/>
+    <SolidColorBrush x:Key="QuantityWindowBackToFormColourBrush" Color="{StaticResource QuantityWindowBackToFormColour}"/>
+    <SolidColorBrush x:Key="NoSalesHistoryInLineItemEditSolidColourBrush" Color="{StaticResource NoSalesHistoryInLineItemEditColour}"/>
+
+
+    <!--MultipleBillArrows-->
+    <SolidColorBrush x:Key="MultipleBillArrowDisableColorBrush" Color="{StaticResource MultipleBillDisableColor}"/>
+    <SolidColorBrush x:Key="MultipleBillArrowEnableColorBrush" Color="{StaticResource LastBillTextColour}"/>
+    <SolidColorBrush x:Key="MultipleBillArrowBorderBrush" Color="{StaticResource MultipleBillBorderColor}"/>
+</ResourceDictionary>
