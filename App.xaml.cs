@@ -46,7 +46,6 @@ namespace App1
             m_window = new MainWindow();
             m_window.Activate();
         }
-
         private Window m_window;
     }
 }

@@ -286,9 +286,9 @@ C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0
 C:\Users\ananth-18788\source\repos\App1\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Microsoft.Windows.Widgets.Providers.Projection.dll
 C:\Users\ananth-18788\source\repos\App1\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\System.Data.SqlClient.dll
 C:\Users\ananth-18788\source\repos\App1\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\sni.dll
-C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Themes\Generic.xaml
 C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\UI Properties\Themes\Brushes\dark.xaml
 C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\UI Properties\Themes\Brushes\light.xaml
-C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Themes\Generic.xbf
 C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\UI Properties\Themes\Brushes\dark.xbf
 C:\Users\ananth-18788\source\repos\App1\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\UI Properties\Themes\Brushes\light.xbf
+C:\Users\ananth-18788\source\repos\App1\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\UI Properties\Themes\Brushes\dark.xbf
+C:\Users\ananth-18788\source\repos\App1\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\UI Properties\Themes\Brushes\light.xbf

@@ -14,9 +14,6 @@
     <Page Update="UI Properties\Themes\Brushes\dark.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Themes\Generic.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="UI Properties\Themes\Brushes\light.xaml">
       <SubType>Designer</SubType>
     </Page>
